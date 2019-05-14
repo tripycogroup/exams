@@ -2,7 +2,7 @@ import { compose, map, sum } from 'ramda';
 import Customer from './models/Customer';
 import Cart from './models/Cart';
 
-import IDiscountPolicy from './discount-policies/IDiscountPolicy';
+import DiscountPolicy from './discount-policies/DiscountPolicy';
 import each100DollarPolicy from './discount-policies/each-100-dollar';
 import percentagePerRolePolicy from './discount-policies/percentage-per-role';
 
@@ -18,7 +18,7 @@ export default (customer: Customer, cart: Cart): [number, number, number] => {
 
   const total_discount: number = compose(
     sum,
-    map((policy: IDiscountPolicy): number => policy.discount(customer, cart))
+    map((policy: DiscountPolicy): number => policy.discount(customer, cart))
   )(APPLIED_DISCOUNT_POLICIES);
 
   const net_price = total_price - total_discount;

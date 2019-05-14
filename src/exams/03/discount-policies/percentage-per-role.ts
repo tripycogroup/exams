@@ -1,5 +1,5 @@
 import { compose, filter, map, sum } from 'ramda';
-import IDiscountPolicy from './IDiscountPolicy';
+import DiscountPolicy from './DiscountPolicy';
 import Customer, { CustomerRole } from '../models/Customer';
 import { ProductCategory } from '../models/Product';
 import Cart, { PlainCartItem } from '../models/Cart';
@@ -10,7 +10,7 @@ const DISCOUNT_PERCENTAGE_PER_ROLE = {
   [CustomerRole['loyalty_customer']]: 0.05,
 };
 
-const PercentagePerRole: IDiscountPolicy = {
+const PercentagePerRole: DiscountPolicy = {
   discount: (customer: Customer, cart: Cart): number => {
     const customer_role = customer.role;
     const items = cart.items;
