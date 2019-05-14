@@ -3,7 +3,7 @@ import Cart from './models/Cart';
 import checkout from './checkout';
 
 import loadInput from './loadInput';
-const input = require('./input.json');
+import input from './input.json';
 
 import { toCurrency } from '../../utils';
 

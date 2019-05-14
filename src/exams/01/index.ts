@@ -2,7 +2,7 @@ import store from './store';
 import load from './load';
 
 // program's input
-const input = require('./input.json');
+import input from './input.json';
 
 // play demo
 export default (): void => {
