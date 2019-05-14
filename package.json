@@ -13,6 +13,10 @@
     "ts",
     "exam"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tripycogroup/indigo.git"
+  },
   "scripts": {
     "pretty": "prettier-eslint --write \"{src,__tests__}/**/*.ts\"",
     "lint": "eslint --color src/**/*.ts",
