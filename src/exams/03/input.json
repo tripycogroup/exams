@@ -1,0 +1,26 @@
+{
+  "customer": {
+    "role": "employee"
+  },
+  "items": [{
+    "name": "apple",
+    "price": 0.95,
+    "category": "grocery",
+    "quantity": 3
+  }, {
+    "name": "banana",
+    "price": 1.15,
+    "category": "grocery",
+    "quantity": 1
+  }, {
+    "name": "book",
+    "price": 49.99,
+    "category": "book",
+    "quantity": 5
+  }, {
+    "name": "microwave",
+    "price": 649,
+    "category": "electronic",
+    "quantity": 1
+  }]
+}
