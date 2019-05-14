@@ -1,4 +1,4 @@
-# Indigo
+# Exams
 
 This repo contains all 3 exercises 📝📝📝
 
@@ -25,13 +25,13 @@ This repo contains all 3 exercises 📝📝📝
 > Clone project via `SSH` is recommended
 
 ```sh
-git clone git@github.com:tripycogroup/indigo.git
+git clone git@github.com:tripycogroup/exams.git
 ```
 
 > Install package's dependencies
 
 ```sh
-cd indigo && yarn
+cd exams && yarn
 ```
 
 > Compile typescript
