@@ -2,6 +2,12 @@
 
 This repo contains all 3 exercises 📝📝📝
 
+## 🚧 Progress (working)
+
+- [x] Exam1
+- [ ] Exam2
+- [x] Exam3
+
 ## ❗️ Prerequisites
 
 * [Node.js](https://nodejs.org/en/): JavaScript runtime
@@ -11,7 +17,8 @@ This repo contains all 3 exercises 📝📝📝
 * [Yarn (optional)](https://yarnpkg.com): Dependency management
   
   > Yarn is recommended by its speed, reliability & security
-  > Examples use Yarn to excute scripts. You can use any relevant syntax from npm instead.
+
+  > Examples use Yarn to excute scripts. You can use any relevant syntax from npm instead
 
 ## 🚀 Getting Started
 
