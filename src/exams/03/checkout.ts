@@ -21,7 +21,7 @@ export default (customer: Customer, cart: Cart): [number, number, number] => {
     map((policy: IDiscountPolicy): number => policy.discount(customer, cart))
   )(APPLIED_DISCOUNT_POLICIES);
 
-  const net_price = total_price > total_discount ? total_price - total_discount : 0;
+  const net_price = total_price - total_discount;
 
   return [total_price, total_discount, net_price];
 };
