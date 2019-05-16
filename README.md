@@ -8,6 +8,14 @@ This repo contains all 3 exercises 📝📝📝
 - [ ] Exam2
 - [x] Exam3
 
+## 🔎 Analysis
+
+The complexity of exam #1 is explained as below:
+
+* store: let n is the number of key-value pairs in Dict and m is the number of Dict in an array. The complexity is O(nm), which is equal to the complexity takes to traverse a 2D array.
+
+* load: the complexity in the code is O(nm) but it could be reduced to O(n) with 1 loop.
+
 ## ❗️ Prerequisites
 
 * [Node.js](https://nodejs.org/en/): JavaScript runtime
@@ -48,6 +56,14 @@ yarn start 1
 yarn start 2
 yarn start 3
 ```
+
+## 🐞 How to test
+
+```sh
+yarn test
+```
+
+> Run tests
 
 ## 🐔 Development
 
